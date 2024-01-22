@@ -8,11 +8,11 @@ spec:
     matchLabels:
      app: proj1
    template:
-      metadata:
-        labels:
+    metadata:
+      labels:
           app: proj1
-      spec:
-       containers:
+    spec:
+      containers:
         - name: proj1
           image: chrisjonathan02/pipeline-demo
           imagePullPolicy: Always
